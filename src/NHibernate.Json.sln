@@ -1,11 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2003
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHibernate.Json", "NHibernate.Json\NHibernate.Json.csproj", "{98C784DA-157A-4140-8C75-D28BE315614A}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHibernate.Json.Tests", "NHibernate.Json.Tests\NHibernate.Json.Tests.csproj", "{54B2E712-915B-4B5F-86DA-8D45F1185077}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NHibernate.Json", "NHibernate.Json\NHibernate.Json.csproj", "{98C784DA-157A-4140-8C75-D28BE315614A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{37695868-CBB1-4E4E-97B4-0A9D23DC45E4}"
 	ProjectSection(SolutionItems) = preProject
@@ -22,12 +20,11 @@ Global
 		{98C784DA-157A-4140-8C75-D28BE315614A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98C784DA-157A-4140-8C75-D28BE315614A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98C784DA-157A-4140-8C75-D28BE315614A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{54B2E712-915B-4B5F-86DA-8D45F1185077}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{54B2E712-915B-4B5F-86DA-8D45F1185077}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{54B2E712-915B-4B5F-86DA-8D45F1185077}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{54B2E712-915B-4B5F-86DA-8D45F1185077}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {680B02A4-CA88-43C1-8456-768BAF5EC61C}
 	EndGlobalSection
 EndGlobal
